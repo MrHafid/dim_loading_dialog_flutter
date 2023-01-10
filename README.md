@@ -2,7 +2,7 @@
 Customizable progress dialog for Flutter applications with smooth animation for background dim color and blur.
 
 ### Example
-<!-- ![example gif](https://raw.githubusercontent.com/arsamme/flutter-progress-dialog/main/example/doc/example.gif) -->
+![example gif](https://raw.githubusercontent.com/MrHafid/dim_loading_dialog_flutter/main/screenshots/dlp.gif)
 
 ## Getting Started    
  ### Install  
