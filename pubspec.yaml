@@ -2,7 +2,7 @@ name: dim_loading_dialog
 description: Dim Loading Dialog simple use for popup
  dialog and custom popup with loading or progress dialog, 
  check the example for use and look screenshot for ex result.
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/MrHafid/dim_loading_dialog_flutter
 
 environment:
