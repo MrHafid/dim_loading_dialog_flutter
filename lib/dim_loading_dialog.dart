@@ -1,4 +1,4 @@
-// ignore_for_file: prefer_if_null_operators, unnecessary_null_comparison
+// ignore_for_file: prefer_if_null_operators, unnecessary_null_comparison, deprecated_member_use
 
 import 'dart:ui';
 
@@ -73,7 +73,7 @@ class DimLoadingDialog {
       await showDialog(
         useSafeArea: useSafeArea,
         context: context,
-        barrierDismissible: dismissable ?? true,
+        barrierDismissible: dismissable,
         builder: (context) => _progressDialogWidget,
         barrierColor: Colors.transparent,
       );
@@ -139,7 +139,7 @@ class _DimLoadingDialogWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return _DialogBackground(
       blur: blur,
-      dismissable: dismissable ?? true,
+      dismissable: dismissable,
       onDismiss: onDismiss,
       color: backgroundColor,
       animationDuration: animationDuration,
@@ -210,7 +210,7 @@ class _DialogBackground extends StatelessWidget {
                 alignment: Alignment.center,
                 children: <Widget>[
                   GestureDetector(
-                      onTap: dismissable ?? true
+                      onTap: dismissable
                           ? () {
                               if (onDismiss != null) {
                                 onDismiss!();

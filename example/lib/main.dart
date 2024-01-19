@@ -1,6 +1,5 @@
 import 'package:dim_loading_dialog_example/home.dart';
 import 'package:flutter/material.dart';
-import 'package:dim_loading_dialog/dim_loading_dialog.dart';
 
 class GlobalVariable {
   /// This global key is used in material app for navigation through firebase notifications.

@@ -1,5 +1,4 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:dim_loading_dialog/dim_loading_dialog.dart';
 import 'package:dim_loading_dialog/dim_loading_dialog_platform_interface.dart';
 import 'package:dim_loading_dialog/dim_loading_dialog_method_channel.dart';
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
