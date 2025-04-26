@@ -7,7 +7,7 @@ Customizable progress dialog for Flutter applications with smooth animation for 
 ## Getting Started    
  ### Install  
 Add dependency to pubspec.yaml file :   
-`dim_loading_dialog: 0.0.3`    
+`dim_loading_dialog: <latest-version>`    
 
 Run this command :  
 `$ flutter pub get`

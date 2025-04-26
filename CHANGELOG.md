@@ -9,3 +9,7 @@
 ## 0.0.3
 
 * Change nullable in in function#2
+
+## 1.0.1
+
+* Change version to flutter 3 and fix namespace
